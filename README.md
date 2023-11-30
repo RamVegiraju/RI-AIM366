@@ -10,7 +10,7 @@ This whole process will take ~30 minutes (Studio and EMR cluster setup)
 
 ### Notebooks Guide
 
-1. Create Studio Domain, VPC Setup, Service Catalog Setup for EMR Cluster using CloudFormation template: CFN-SagemakerEMRNoAuthProductWithStudio-v3.yaml, refer to original code [here](https://github.com/aws-samples/sagemaker-studio-emr/blob/main/cloudformation/getting_started/CFN-SagemakerEMRNoAuthProductWithStudio-v3.yaml).
+1. Create Studio Domain, VPC Setup, Service Catalog Setup for EMR Cluster using CloudFormation template: <b>CFN-SagemakerEMRNoAuthProductWithStudio-v3.yaml</b>, refer to original code [here](https://github.com/aws-samples/sagemaker-studio-emr/blob/main/cloudformation/getting_started/CFN-SagemakerEMRNoAuthProductWithStudio-v3.yaml).
 2. Execute <b>spark-pipelines.ipynb</b>, this will connect to your EMR Cluster, run preprocessing and create a SageMaker Pipeline that executes the following notebook as Notebook Jobs to demonstrate an end to end ML workflow:
    - <b>preprocessing.ipynb</b>
    - <b>training.ipynb</b>
