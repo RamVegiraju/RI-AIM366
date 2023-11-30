@@ -19,7 +19,7 @@ This whole process will take ~30 minutes (Studio and EMR cluster setup)
 ## Solution Architecture
 Once you have connected to your EMR cluster, we can perform preprocessing with Spark on Studio. You can also optionally use Spark via Glue Interactive Sessions. For this ML use-case we take the SST2 Text Classification dataset and use Transformers BERT for fine-tuning and deployment. Our entire ML workflow consists of preprocessing, local training, base model deployment, and monitoring setup. We orchestrate this workflow using SageMaker Pipelines and utilize SageMaker Notebook Job Steps to capture each ML lifecycle step as reflected in the following diagram:
 
-![workflow](images/workflow.png)
+![workflow](images/workflow-updated.png)
 
 ## References/Credits/Additional Resources
 
